@@ -1,0 +1,9 @@
+This is a project to convert from JUnit to Cucumber with Selenium WebDriver and test automation on Payoff.com as an example
+
+To initialize the project via Maven:
+mvn archetype:generate -DgroupId=com.payoff -DartifactId=PayoffAutomationCucumberJVM -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Installation:
+1. git clone https://github.com/michaelthecsguy/PayoffAutomationCucumberJVM.git
+2. mvn clean install
+3. mvn test
